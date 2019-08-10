@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: deeptrade
+Version: 0.0.1
+Summary: A python library to communicate with the DeepTrade API
+Home-page: https://deeptrade.ch
+Author: Fabio C.
+Author-email: info@deeptrade.ch
+License: UNKNOWN
+Description: # DeepTrade Python Library
+        
+        
+        The DeepTrade Python library provides convenient access to the DeepTrade API from
+        applications written in the Python language. It includes a pre-defined set of
+        classes for API resources that initialize themselves dynamically from API
+        responses.
+        
+        ## Documentation
+        
+        See the [Python API docs](https://deeptrade.ch/docs/).
+        
+        ## Installation
+        
+        You don't need this source code unless you want to modify the package. If you just
+        want to use the package, just run:
+        
+        ```sh
+        pip install --upgrade deeptrade
+        ```
+        
+        Install from source with:
+        
+        ```sh
+        python setup.py install
+        ```
+        
+        ### Requirements
+        
+        - Python 2.7+ or Python 3.4+ (PyPy supported)
+        
+        ## Usage
+        
+        The library needs to be configured with your account's secret key which is
+        available in your [DeepTrade Dashboard][api-keys]. Set `deeptrade.api_key` to its
+        value:
+        
+        ```python
+        import deeptrade
+        deeptrade.api_key = "123abc_..."
+        
+        # get sentiment by date
+        deeptrade.Sentiment.by_date('2018-02-23')
+        ```
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown

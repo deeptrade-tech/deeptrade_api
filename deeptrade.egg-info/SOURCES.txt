@@ -1,0 +1,8 @@
+README.md
+setup.py
+deeptrade/__init__.py
+deeptrade/sentiment.py
+deeptrade.egg-info/PKG-INFO
+deeptrade.egg-info/SOURCES.txt
+deeptrade.egg-info/dependency_links.txt
+deeptrade.egg-info/top_level.txt
