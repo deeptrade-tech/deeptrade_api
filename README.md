@@ -40,5 +40,5 @@ import deeptrade
 deeptrade.api_key = "123abc_..."
 
 # get sentiment by date
-deeptrade.Sentiment.by_date('2018-02-23')
+deeptrade.Sentiment().by_date(date='2018-02-23',dataframe=True)
 ```
