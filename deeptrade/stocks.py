@@ -54,7 +54,7 @@ class StockPrice():
         :returns:
         json or pandas dataframe with all the hist. OHLC & stock information for the particular date
         """
-        endpoint = deeptrade.api_base+"stockdate/"+date+'/'+ticker
+        endpoint = deeptrade.api_base+"stockdate/"+ticker+'/'+date
         g = requests.get(endpoint, headers=self.head).json()
         if dataframe:
             df = pd.DataFrame(g)
