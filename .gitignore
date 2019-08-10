@@ -2,3 +2,5 @@ build
 deeptrade.egg_info
 dist
 *__pycache__*
+.gitignore
+.pypirc
