@@ -1,3 +1,4 @@
 build
 deeptrade.egg_info
 dist
+*__pycache__*
