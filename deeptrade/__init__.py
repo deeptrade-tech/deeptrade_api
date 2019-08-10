@@ -11,3 +11,5 @@ api_base = "http://206.81.21.48/"
 # API sentiment
 from deeptrade.sentiment import *
 
+# API stocks
+from deeptrade.stocks import *

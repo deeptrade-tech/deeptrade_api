@@ -2,6 +2,7 @@ README.md
 setup.py
 deeptrade/__init__.py
 deeptrade/sentiment.py
+deeptrade/stocks.py
 deeptrade.egg-info/PKG-INFO
 deeptrade.egg-info/SOURCES.txt
 deeptrade.egg-info/dependency_links.txt

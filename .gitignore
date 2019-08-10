@@ -4,3 +4,4 @@ dist
 *__pycache__*
 .gitignore
 .pypirc
+pypi_push.sh
