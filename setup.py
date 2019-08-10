@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="deeptrade",
-    version="0.0.1",
+    version="0.0.2",
     author="Fabio C.",
     author_email="info@deeptrade.ch",
     description="A python library to communicate with the DeepTrade API",
