@@ -1,7 +1,8 @@
 build
-deeptrade.egg-info/*
+deeptrade.egg-info
 dist
 *__pycache__*
 .gitignore
 .pypirc
 pypi_push.sh
+github_push.sh
